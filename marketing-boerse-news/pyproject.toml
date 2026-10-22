@@ -1,0 +1,11 @@
+[project]
+name = "marketing-boerse-news"
+version = "0.1.0"
+description = "Taegliche Marketing-Boerse News-Zusammenfassung per E-Mail"
+requires-python = ">=3.12"
+dependencies = [
+    "mistralai-workflows[mistralai]>=3.10",
+    "httpx>=0.27",
+    "beautifulsoup4>=4.12",
+    "pydantic>=2",
+]
